@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#103b32">
+    <meta name="description" content="Legacy 365 Unisex Salon — premium beauty, hair, makeup and skincare services in Mohali.">
+    <title>Legacy 365 | Luxury Unisex Salon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement">
+        <p>YOUR BEAUTY, OUR PASSION — <span>BOOK YOUR APPOINTMENT TODAY</span></p>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="brand" aria-label="Legacy 365 home">
+                <span class="brand-symbol">L<span>✦</span></span>
+                <span class="brand-text">
+                    <strong>LEGACY 365</strong>
+                    <small>UNISEX SALON</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+
+            
+<div class="nav-links" id="navLinks">
+
+    <a href="#home" class="nav-link active">
+        <i class="nav-icon">
+            <svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg>
+        </i>
+        <span>Home</span>
+    </a>
+
+    <a href="#about" class="nav-link">
+        <i class="nav-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+        </i>
+        <span>Our Story</span>
+    </a>
+
+    
+<div class="nav-dropdown" id="servicesDropdown">
+
+    <button class="nav-link services-toggle"
+            id="servicesToggle"
+            aria-expanded="false"
+            aria-controls="servicesMenu">
+        <i class="nav-icon">
+            <svg viewBox="0 0 24 24">
+                <path d="M4 7h16M4 12h16M4 17h10"/>
+            </svg>
+        </i>
+        <span>Services</span>
+        <span class="dropdown-arrow"></span>
+    </button>
+
+    <div class="nav-dropdown-menu" id="servicesMenu">
+        <a href="service.html" class="dropdown-item">
+            <span class="dropdown-symbol">M</span>
+            <span>
+                <strong>Male Services</strong>
+                <small>Haircut, beard & grooming</small>
+            </span>
+            <span class="dropdown-go">↗</span>
+        </a>
+
+        <a href="service.html" class="dropdown-item">
+            <span class="dropdown-symbol">F</span>
+            <span>
+                <strong>Female Services</strong>
+                <small>Makeup, hair & beauty</small>
+            </span>
+            <span class="dropdown-go">↗</span>
+        </a>
+    </div>
+
+</div>
+
+
+    <a href="#offer" class="nav-link">
+        <i class="nav-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 7v14"/><path d="M12 7H7a3 3 0 1 1 3-3c0 2 2 3 2 3zm0 0h5a3 3 0 1 0-3-3c0 2-2 3-2 3z"/></svg>
+        </i>
+        <span>Offers</span>
+    </a>
+
+    <a href="#contact" class="nav-link">
+        <i class="nav-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg>
+        </i>
+        <span>Contact</span>
+    </a>
+
+    <a href="https://www.instagram.com/legacy_365_salon"
+       class="nav-link instagram-link"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Visit our Instagram">
+
+        <i class="nav-icon instagram-icon">
+            <svg viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle class="instagram-dot" cx="17.5" cy="6.5" r="1"/>
+            </svg>
+        </i>
+        
+    </a>
+
+    <a href="#contact" class="nav-book">
+        <span>Book Appointment</span>
+        <span>↗</span>
+    </a>
+
+</div>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <img class="hero-image"
+                 src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=85"
+                 alt="Elegant modern salon interior">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <div class="eyebrow light-eyebrow">
+                        <span></span> THE ART OF SELF-CARE <span></span>
+                    </div>
+
+                    <h1>Your Beauty.<br>
+                        Your Style.<br>
+                        <em>Your Legacy.</em>
+                    </h1>
+
+                    <p>
+                        Discover a place where luxury meets personal care.
+                        From beautiful hair to flawless makeup, your next
+                        beauty experience starts here.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="service.html" class="btn btn-gold">Explore Services <span>↗</span></a>
+                        <a href="#about" class="btn btn-outline">Discover Our Story</a>
+                    </div>
+
+                    <div class="hero-rating">
+                        <div class="rating-stars">★★★★★</div>
+                        <p>Your beauty journey, thoughtfully crafted.</p>
+                    </div>
+                </div>
+
+                <div class="hero-caption">
+                    <span>01 / 04</span>
+                    <span>BEAUTY • CARE • CONFIDENCE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST STRIP -->
+        <section class="trust-strip">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <span class="trust-icon">✦</span>
+                    <div><strong>Expert Stylists</strong><small>Care in every detail</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">✧</span>
+                    <div><strong>Premium Products</strong><small>Quality you can feel</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">♡</span>
+                    <div><strong>Personalised Care</strong><small>Made for you</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">❋</span>
+                    <div><strong>Relaxing Experience</strong><small>Your time to unwind</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section-pad" id="about">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <div class="about-main-image">
+                        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1000&q=85"
+                             alt="Professional hair styling at the salon">
+                    </div>
+                    <div class="about-small-image">
+                        <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d2?auto=format&fit=crop&w=600&q=85"
+                             alt="Salon beauty and styling details">
+                    </div>
+                    <div class="experience-note">
+                        <span>YOUR</span>
+                        <strong>Beauty<br>Destination</strong>
+                        <span>STARTS HERE</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="eyebrow"><span></span> WELCOME TO LEGACY 365</div>
+                    <h2>Beauty is personal.<br><em>So is our approach.</em></h2>
+                    <p>
+                        At Legacy 365, we believe beauty is not about following
+                        trends. It is about bringing out what makes you feel
+                        confident, comfortable and uniquely yourself.
+                    </p>
+                    <p>
+                        From a fresh haircut to a special occasion makeover,
+                        our goal is to give you thoughtful service, attention
+                        to detail and a relaxing salon experience.
+                    </p>
+
+                    <a href="about.html" class="text-link">THE STORY BEHIND OUR SALON <span>↗</span></a>
+
+                    <div class="signature">
+                        <span class="signature-mark">L365</span>
+                        <span><strong>Legacy 365</strong><small>Your beauty, our commitment.</small></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section-pad" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow"><span></span> THE SALON EXPERIENCE</div>
+                        <h2>A little luxury.<br><em>A lot of you.</em></h2>
+                    </div>
+                    <p>
+                        Explore our beauty services, thoughtfully designed
+                        to help you look good and feel even better.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+                    <a href="#contact" class="service-card">
+                        <div class="service-photo">
+                            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85"
+                                 alt="Skincare and facial treatment" loading="lazy">
+                            <span class="service-number">01</span>
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span>GLOW & RENEW</span>
+                            <h3>Skincare</h3>
+                            <p>Facials, clean-ups and refreshing skin treatments.</p>
+                            <span class="service-link">EXPLORE SERVICES ↗</span>
+                        </div>
+                    </a>
+
+                    <a href="#contact" class="service-card">
+                        <div class="service-photo">
+                            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=85"
+                                 alt="Professional makeup look" loading="lazy">
+                            <span class="service-number">02</span>
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span>YOUR SPECIAL MOMENT</span>
+                            <h3>Makeup</h3>
+                            <p>Party, bridal and occasion makeup tailored to you.</p>
+                            <span class="service-link">EXPLORE SERVICES ↗</span>
+                        </div>
+                    </a>
+
+                    <a href="#contact" class="service-card">
+                        <div class="service-photo">
+                            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=85"
+                                 alt="Professional hair styling" loading="lazy">
+                            <span class="service-number">03</span>
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span>YOUR SIGNATURE LOOK</span>
+                            <h3>Hair Studio</h3>
+                            <p>Haircuts, styling, colouring and hair care.</p>
+                            <span class="service-link">EXPLORE SERVICES ↗</span>
+                        </div>
+                    </a>
+
+                    <a href="#contact" class="service-card">
+                        <div class="service-photo">
+                            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=85"
+                                 alt="Nail care and manicure" loading="lazy">
+                            <span class="service-number">04</span>
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span>THE FINISHING TOUCH</span>
+                            <h3>Nails & Beauty</h3>
+                            <p>Neat nail care and beauty services for your look.</p>
+                            <span class="service-link">EXPLORE SERVICES ↗</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="services-bottom">
+                    <p>Not sure which service is right for you?</p>
+                    <a href="#contact" class="btn btn-dark">Let's Talk About Your Look ↗</a>
+                </div>
+            </div>
+        </section>
+
+    
+<!-- OFFER -->
+<section class="offer" id="offer">
+
+    <div class="offer-image">
+        <img
+            src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=1200&q=85"
+            alt="Luxury salon styling experience"
+            loading="lazy">
+    </div>
+
+    <div class="offer-content">
+
+        <div class="eyebrow light-eyebrow">
+            <span></span> A SPECIAL WELCOME GIFT
+        </div>
+
+        <p class="offer-small">YOUR FIRST VISIT DESERVES SOMETHING SPECIAL</p>
+
+        <h2>
+            Enjoy <em>10% OFF</em><br>
+            your first visit.
+        </h2>
+
+        <p>
+            Your beauty journey starts here! Enjoy 10% off your
+            first salon visit or service at Legacy 365.
+            Let our team help you find the perfect treatment
+            for your style and self-care needs.
+        </p>
+
+        <a
+            href="https://wa.me/919068632666?text=Hello%20Legacy%20365%2C%20I%20would%20like%20to%20claim%20the%2010%25%20discount%20on%20my%20first%20visit."
+            class="btn btn-gold"
+            target="_blank"
+            rel="noopener noreferrer">
+            CLAIM YOUR 10% OFF ↗
+        </a>
+
+        <small>*Offer valid on your first visit. Please ask our team about applicable services and offer terms.</small>
+
+    </div>
+
+</section>
+
+
+        <!-- WHY US -->
+        <section class="why section-pad">
+            <div class="container why-grid">
+                <div class="why-content">
+                    <div class="eyebrow"><span></span> THE LEGACY DIFFERENCE</div>
+                    <h2>More than a salon.<br><em>Your happy place.</em></h2>
+                    <p>
+                        Your salon visit should feel as good as the results.
+                        We focus on understanding your preferences and
+                        making your experience comfortable.
+                    </p>
+
+                    <div class="why-list">
+                        <div class="why-point">
+                            <span>01</span>
+                            <div><h3>Made for You</h3><p>Services tailored to your style and preferences.</p></div>
+                        </div>
+                        <div class="why-point">
+                            <span>02</span>
+                            <div><h3>Attention to Detail</h3><p>Thoughtful care from consultation to finish.</p></div>
+                        </div>
+                        <div class="why-point">
+                            <span>03</span>
+                            <div><h3>Comfort Comes First</h3><p>A welcoming space to take a moment for yourself.</p></div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="text-link">PLAN YOUR VISIT <span>↗</span></a>
+                </div>
+
+                <div class="why-visual">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85"
+                         alt="Beauty professional working with a client" loading="lazy">
+                    <div class="why-image-label">
+                        <span>YOUR STYLE</span>
+                        <strong>Your Story.</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section-pad" id="contact">
+            <div class="container">
+                <div class="contact-heading">
+                    <div class="eyebrow"><span></span> COME SAY HELLO</div>
+                    <h2>Your next beauty moment<br><em>starts here.</em></h2>
+                    <p>Have questions about our services? Get in touch with us to plan your visit.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <span class="contact-icon">⌖</span>
+                        <h3>Visit Our Salon</h3>
+                        <p>Shop No. 10, Ambika Tower,<br>Sector 66B, Aerocity, Mohali</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Legacy+365+Unisex+Salon+Mohali"
+                           target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <span class="contact-icon">☎</span>
+                        <h3>Call Us</h3>
+                        <p>Speak to our team about services<br>and appointment availability.</p>
+                        <!-- Replace with the salon's verified phone number -->
+                        <a href="tel:+919000000000">CALL THE SALON ↗</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <span class="contact-icon">◷</span>
+                        <h3>Opening Hours</h3>
+                        <p>Daily: 10:00 AM – 9:00 PM<br>Please confirm before visiting.</p>
+                        <a href="https://wa.me/919000000000?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20salon%20services."
+                           target="_blank" rel="noopener">ASK ON WHATSAPP ↗</a>
+                    </div>
+                </div>
+
+                <div class="map-frame">
+                    <iframe
+                        title="Find Legacy 365 Unisex Salon in Mohali"
+                        src="https://maps.google.com/maps?q=Legacy%20365%20Unisex%20Salon%20Mohali&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a href="#home" class="brand footer-logo">
+                    <span class="brand-symbol">L<span>✦</span></span>
+                    <span class="brand-text">
+                        <strong>LEGACY 365</strong>
+                        <small>UNISEX SALON</small>
+                    </span>
+                </a>
+                <p>A little luxury, thoughtful care and a beauty experience that feels like you.</p>
+                <a class="footer-location"
+                   href="https://www.google.com/maps/search/?api=1&query=Legacy+365+Unisex+Salon+Mohali"
+                   target="_blank" rel="noopener">MOHALI, PUNJAB ↗</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#about">Our Story</a>
+                <a href="#services">Our Services</a>
+                <a href="#offer">Special Offers</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <a href="#services">Skincare</a>
+                <a href="#services">Makeup</a>
+                <a href="#services">Hair Studio</a>
+                <a href="#services">Nails & Beauty</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Get in Touch</h3>
+                <p>Ambika Tower, Sector 66B,<br>Aerocity, Mohali, Punjab</p>
+                <a href="#contact">Visit & Contact ↗</a>
+                <a href="https://wa.me/919000000000?text=Hello%2C%20I%20would%20like%20to%20book%20a%20salon%20appointment."
+                   target="_blank" rel="noopener">WhatsApp Us ↗</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> Legacy 365 Unisex Salon. All rights reserved.</p>
+            <a href="#home">BACK TO TOP ↑</a>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a class="whatsapp-float"
+       href="https://wa.me/919000000000?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20salon%20services."
+       target="_blank" rel="noopener"
+       aria-label="Contact the salon on WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.55 0 .2 5.35.2 11.93c0 2.1.55 4.15 1.6 5.96L.1 24l6.27-1.64a11.9 11.9 0 0 0 5.75 1.47h.01c6.58 0 11.93-5.35 11.93-11.93a11.85 11.85 0 0 0-3.54-8.42ZM12.13 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.97.99-3.62-.23-.37a9.84 9.84 0 0 1-1.51-5.26c0-5.46 4.44-9.9 9.9-9.9a9.83 9.83 0 0 1 7.01 2.9 9.83 9.83 0 0 1 2.9 7.01c0 5.46-4.44 9.9-9.94 9.9Zm5.43-7.41c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.3 1.27.48 1.7.61.72.23 1.37.2 1.88.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.08-.12-.27-.2-.57-.35Z"/>
+        </svg>
+    </a>
+
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", function () {
+            const isOpen = navLinks.classList.toggle("open");
+            menuToggle.classList.toggle("is-open", isOpen);
+            menuToggle.setAttribute("aria-expanded", String(isOpen));
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Close navigation menu" : "Open navigation menu"
+            );
+            document.body.classList.toggle("menu-open", isOpen);
+        });
+
+        document.querySelectorAll(".nav-link, .nav-book").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+                menuToggle.classList.remove("is-open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Open navigation menu");
+                document.body.classList.remove("menu-open");
+            });
+        });
+
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+
+            
+const servicesDropdown = document.getElementById("servicesDropdown");
+const servicesToggle = document.getElementById("servicesToggle");
+
+servicesToggle.addEventListener("click", function () {
+    const isOpen = servicesDropdown.classList.toggle("open");
+    servicesToggle.setAttribute("aria-expanded", String(isOpen));
+});
+
+document.addEventListener("click", function (event) {
+    if (!servicesDropdown.contains(event.target)) {
+        servicesDropdown.classList.remove("open");
+        servicesToggle.setAttribute("aria-expanded", "false");
+    }
+});
+
+document.querySelectorAll("#servicesMenu a").forEach(link => {
+    link.addEventListener("click", function () {
+        servicesDropdown.classList.remove("open");
+        servicesToggle.setAttribute("aria-expanded", "false");
+
+        navLinks.classList.remove("open");
+        menuToggle.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        document.body.classList.remove("menu-open");
+    });
+});
+
+    </script>
+</body>
+</html>
